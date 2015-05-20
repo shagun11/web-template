@@ -1,0 +1,26 @@
+@import "navbar";
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.section1 {
+  background-image: url('/img/main_banner.jpg');
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+/* Added*/
+  padding-bottom: 90px;
+/*  */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  margin: 5px;
+  margin-left: 140px;
+  position: fixed;
+}
+

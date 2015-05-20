@@ -18,8 +18,6 @@
   <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
   <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet" type="text/css" />
   <link href="http://fonts.googleapis.com/css?famil<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300,600' rel='stylesheet' type='text/css'>y=Open+Sans" rel="stylesheet" type="text/css">
-  <link href="styles/app.css" rel="stylesheet" type="text/css">
-  <link href="styles/bootstrap.min.css" rel="stylesheet" type="text/css">
 
   <!-- build:css styles/vendor.css -->
   <!-- bower:css -->
@@ -36,10 +34,11 @@
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <div class="section1">
+  <section class="section1">
     <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <img class="logo pull-left" src="img/all_icons/hashedin_logo_white.png">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" role="navigation">
+        <div class="navbar-brand">
+          <a><img class="logo pull-left" src="img/all_icons/hashedin_logo_white.png"></a></div>
         <ul class="nav navbar-nav navbar-default navbar-link pull-right">
           <li><a href="About.html">About</a></li>
           <li><a href="Services.html">Services</a></li>
@@ -57,25 +56,47 @@
         <a href=""><u><h3>read more</h3></u></a>
       </div>
     </div>
-  </div>
-<div class="section2">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-4 section2 col">
-        <h1 class="section2 col col1"><strong>WE WORK FOR</strong></h1>
+  </section>
+<section class="we-work-for">
+<!--  <div class="container">-->
+    <div class="row margin">
+      <div class="col-md-4 work-for">
+          <span class="style">WE <strong>WORK FOR</strong></span>
+        </div>
+      <div class="col-md-4 enterprise">
+<!--        <div class="col">-->
+        <h1 class="style"><strong>Enterprises</strong></h1>
+<!--      </div>-->
       </div>
-      <div class="col-md-4 section2 col">
-        <h1 class="section2 col col2">Enterprises</h1>
-      </div>
-      <div class="col-md-4 section2 col">
-        <h1 class="section2 col col3">Startups</h1>
+      <div class="col-md-4 startups">
+        <h1 class="style"><strong>Startups</strong></h1>
       </div>
     </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="work-for-heading">We are <b class="work-for-heading-color">full-stack services</b> company</h1></div>
+      <ul class="list-inline">
+        <li>Design</li>
+        <li class="glyphicon glyphicon-plus"></li>
+        <li>Back End</li>
+        <li class="glyphicon glyphicon-plus"></li>
+        <li>Web</li>
+        <li class="glyphicon glyphicon-plus"></li>
+        <li>Mobile</li>
+        <li class="glyphicon glyphicon-plus"></li>
+        <li>Deployment</li>
+      </ul>
+      <div class="work-for-subheading">
+        <ul class="list-inline">
+          <li><img src="img/all_icons/design_icon.png"></li>
+          <li class="glyphicon glyphicon-plus"></li>
+          <li><img src="img/all_icons/development_icon.png"></li>
+          <li class="glyphicon glyphicon-plus"></li>
+          <li><img src="img/all_icons/deployment_icon.png"> </li>
+    </ul>
+    </div>
   </div>
-</div>
-</body>
-</html>
-
+</section>
   <!-- build:js scripts/vendor.js -->
   <!-- bower:js -->
   <script src="libs/jquery/dist/jquery.js"></script>
