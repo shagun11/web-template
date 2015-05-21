@@ -1,0 +1,21 @@
+section4 {
+  height: 860px;
+}
+
+.hi-clients {
+  padding-left: 10em;
+  margin-left: 16em;
+  overflow-x: hidden;
+  padding-top: 8em;
+  padding-bottom: 18em;
+  
+  .hi-clients-nowrap {
+    white-space: nowrap;
+    padding-top: -10px;
+  }
+}
+
+.hi-client-icons {
+  height: 200px;
+  width: 400px;
+}

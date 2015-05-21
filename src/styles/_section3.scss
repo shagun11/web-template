@@ -1,5 +1,10 @@
 .section3 {
   background-color: #000;
   background-image: url('/img/technology stack/tech02.png');
-  height:860px;
+  height: 900px;
+  max-width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
