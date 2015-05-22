@@ -3,7 +3,7 @@ body {
   font-size: 14px;
   background-color: #F4F3F1;
   text-align: center;
-  height: 900px;
+ 
 }
 
 .section2 {
@@ -11,45 +11,53 @@ body {
   top: -20px;
   padding-left: 120px;
   padding-right: 120px;
+  height: 800px;
 }
 
 .work-for {
   background-color: #fff;
   display: inline-block;
-  height: 250px;
-  font-size: 60px;
+  height: 200px;
+  font-size: 3em;
+  line-height: 60px;
 }
+
 .enterprise {
   background-image: url('/img/enterprise.jpg');
   color: #fff;
   font-weight: 800;
-  font-size: 40px;
-  height: 250px;
+  font-size: 1.5em;
+  height: 200px;
 }
+
 .startups {
   background-image: url('/img/startup.jpg');
   color: #fff;
   font-weight: 800;
-  font-size: 40px;
-  height: 250px;
+  font-size: 1.5em;
+  height: 200px;
 }
 
 .header-message {
-  line-height: 210px;
+  padding-top: 52px;
 }
 
 .hi-header {
-  margin-top: 1.5em;
+  margin-top: 1.0em;
   font-size: 4.5em;
 }
 
 .hi-section2-title {
-  margin-top: 3.5em;
-  font-size: 4.5em;
+  margin-top: 3em;
+  font-size: 3em;
 }
 
-.hi-header-color {
+.hi-header-success {
   color: #ff7e00;
+}
+
+.hi-header-primary {
+  color: #fff;
 }
 
 .hi-section-subheading {
